@@ -20,11 +20,7 @@
             <artifactId>hibernate-core</artifactId>
             <version>5.2.12.Final</version>
         </dependency>
-        <dependency>
-            <groupId>org.clojure</groupId>
-            <artifactId>java.jdbc</artifactId>
-            <version>0.7.0-alpha3</version>
-        </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

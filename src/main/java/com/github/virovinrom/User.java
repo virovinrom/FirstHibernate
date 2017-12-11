@@ -1,13 +1,11 @@
-package hibernate.java.test;
+package com.github.virovinrom;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "client_table")
 public class User {
+
 
     @Column(name = "name")
     private String name;
